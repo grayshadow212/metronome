@@ -1,0 +1,37 @@
+{
+  "name": "节拍器 · Guitar Metronome",
+  "short_name": "节拍器",
+  "description": "吉他手日常练习专用节拍器 - 离线可用 PWA",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#fafafa",
+  "theme_color": "#0a0a0a",
+  "lang": "zh-CN",
+  "dir": "ltr",
+  "categories": ["music", "utilities", "productivity"],
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Tap Tempo",
+      "short_name": "TAP",
+      "description": "快速设置 BPM",
+      "url": "./index.html#tap",
+      "icons": [{ "src": "icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
